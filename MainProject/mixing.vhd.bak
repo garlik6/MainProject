@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity mixing is
+--nco in
+   port(
+	i_clk                       : in  std_logic;
+	i_rstb                      : in  std_logic;
+	i_sync_reset                : in  std_logic;
+	i_start_phase               : in  std_logic_vector(31 downto 0);
+	i_fcw                       : in  std_logic_vector(31 downto 0);
+--cordic out
+
+      Busy         : out std_ulogic; --# Generating new result
+      Result_valid : out std_ulogic; --# Flag when result is valid
+
+      X_result : out signed(SIZE-1 downto 0); --# X result
+      Y_result : out signed(SIZE-1 downto 0); --# Y result
+      Z_result : out signed(SIZE-1 downto 0)  --# Z result
+   );
+end mixing;

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/NCO/MainProject/MainProject/simulation/modelsim
+Pcordic
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 w1640858463
+R0
+Z5 8D:/NCO/MainProject/MainProject/cordic.vhdl
+Z6 FD:/NCO/MainProject/MainProject/cordic.vhdl
+l0
+L128 1
+VFij?IIW8oXQN<[9S<Gk:Z0
+!s100 F?Bd1QA`o6_2W7I6;bPho0
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1640861322
+!i10b 1
+Z9 !s108 1640861322.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/NCO/MainProject/MainProject/cordic.vhdl|
+!s107 D:/NCO/MainProject/MainProject/cordic.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Bbody
+DPx4 work 6 cordic 0 22 Fij?IIW8oXQN<[9S<Gk:Z0
+DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R1
+R2
+R3
+!i122 0
+l0
+L169 1
+VLfemD_J2K46lQb_:ZZz?;3
+!s100 e>ISG]XM69ziO]B3oAjQg1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 D:/NCO/MainProject/MainProject/cordic.vhdl|
+!i113 1
+R11
+R12
